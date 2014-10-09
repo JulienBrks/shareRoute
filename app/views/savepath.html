@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <h3 class="modal-title">保存路径</h3>
+</div>
+<div class="modal-body">
+  <form>
+    <div class="form-group">
+      <label for="savePathTitle">标题:</label>
+      <input name="savePathTitle" type="text" class="form-control" ng-model="path.title">
+    </div>
+    <div class="form-group">
+      <label for="savePathContent">说明:</label>
+      <textarea name="savePathContent" id="" cols="30" rows="10" class="form-control" ng-model="path.content"></textarea>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()">OK</button>
+    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+</div>
